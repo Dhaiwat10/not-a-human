@@ -12,7 +12,8 @@ any static website host. Fonts are bundled locally with their licenses.
 Interaction
   Initially only an unchecked "I'm not a human" checkbox is shown.
   Click it to reveal a new 32 by 32 grid.
-  Select all 73 squares with the exact color #7F807F within 60 seconds.
+  Each attempt chooses a new target color. Select all 73 exact matches
+  within 60 seconds. Other squares differ by at most 3 RGB steps per channel.
   Selection is a toggle. All matches and no extra squares are required.
   Success is automatic: the challenge closes and a green checked box
   remains. Timeout closes the challenge and returns an unchecked box

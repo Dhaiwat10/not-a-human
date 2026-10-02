@@ -19,7 +19,9 @@ function start(){
     tile.tabIndex=i===0?0:-1;fragment.append(tile);return tile;
   });
   field.replaceChildren(fragment);field.dataset.challengeId=challenge.id;
-  field.dataset.target=RULES.target;field.dataset.duration=RULES.duration;
+  field.dataset.target=challenge.target;
+  $('#target-color').textContent=challenge.target.toUpperCase();
+  $('.swatch').style.backgroundColor=challenge.target;field.dataset.duration=RULES.duration;
   hint.hidden=true;entry.hidden=true;panel.hidden=false;
   startButton.setAttribute('aria-checked','false');
   startButton.removeAttribute('aria-disabled');

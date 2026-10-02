@@ -26,7 +26,7 @@ button:focus-visible { outline:2px solid var(--purple); outline-offset:5px; }
 h1 { margin:0; font-size:18px; line-height:1.6; font-weight:400; letter-spacing:-.025em; }
 h1:focus { outline:none; }
 .target { display:inline-flex; align-items:center; gap:9px; margin-top:2px; color:var(--ink); font:16px/1.6 var(--mono); letter-spacing:0; }
-.swatch { display:inline-block; width:13px; height:13px; border-radius:2px; background:#7f807f; box-shadow:inset 0 0 0 1px #0000000c; }
+.swatch { display:inline-block; width:13px; height:13px; border-radius:2px; background:transparent; box-shadow:inset 0 0 0 1px #0000000c; }
 .clock { display:flex; gap:7px; align-items:baseline; margin-bottom:3px; color:var(--ink); font:20px/1.5 var(--mono); font-variant-numeric:tabular-nums; letter-spacing:-.07em; white-space:nowrap; }
 .unit { font-size:12px; letter-spacing:0; }
 .field { display:grid; grid-template-columns:repeat(32,minmax(0,1fr)); gap:2px; padding:5px; width:100%; aspect-ratio:1; border:1px solid var(--line); border-radius:3px; background:var(--paper); touch-action:manipulation; }
